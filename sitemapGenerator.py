@@ -11,6 +11,5 @@ if __name__ == '__main__':
         el = windows_events.ProactorEventLoop()
         events.set_event_loop(el)
 
-    root_url = 'https://google.com'
-    crawler(root_url, out_file= 'crawler-test.xml', exclude_urls=[".pdf", ".jpg", ".zip"])
-    print(index)
+    root_url = 'https://stackoverflow.com'
+    crawler(root_url, out_file= 'stackoverflow.xml', exclude_urls=[".pdf", ".jpg", ".zip"])
